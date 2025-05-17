@@ -15,6 +15,14 @@ body{
     background-image: linear-gradient(to bottom, #FF210C, #AF0303);
     width: 50%;
     height: 856px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left-column h1,
+.left-column h2,
+.left-column h3 {
+  margin: 0;
 }
 
 .right-colum{
@@ -26,22 +34,29 @@ body{
     background-color: rgb(174, 132, 139);
     width: 570px;
     height: 390px;
+    margin: 0px;
+    border: 1px solid black;
 }
 
 .name{
     width: 570px;
+    background-color: rgb(19, 86, 144);
+    margin: 0px;
 }
 
-.details {
-    display: block;
-    justify-content: center;
-    align-items: center;
+.title{
+    background-color: aqua;
+}
+
+.description{
+    background-color: bisque;
 }
 
 .playfair-display {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 800;
+    font-size: 50px;
     font-style: normal;
     color: white;
     text-align: center;
@@ -51,6 +66,16 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
+    font-size: 35px;
     color: white;
     text-align: center;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  font-style: normal;
 }
