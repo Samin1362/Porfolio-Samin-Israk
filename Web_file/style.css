@@ -1,3 +1,56 @@
-h1{
-    color: blue;
+body{
+    background-color: #C20606;
+    display: flex;
+    justify-content: center;
+}
+
+.main-section{
+    width: 1140px;
+    height: 1800px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.left-column{
+    background-image: linear-gradient(to bottom, #FF210C, #AF0303);
+    width: 50%;
+    height: 856px;
+}
+
+.right-colum{
+    padding-left: 5px;
+    width: 50%;
+}
+
+.photo{
+    background-color: rgb(174, 132, 139);
+    width: 570px;
+    height: 390px;
+}
+
+.name{
+    width: 570px;
+}
+
+.details {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    text-align: center;
 }
