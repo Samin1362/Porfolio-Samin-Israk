@@ -35,7 +35,7 @@ body {
     overflow-y: auto;
 }
 
-.right-column h4{
+.right-column h4 {
     margin: 0px;
 }
 
@@ -155,22 +155,6 @@ body {
     text-align: justify;
 }
 
-.circles {
-    margin-bottom: 10px;
-}
-
-.circle {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin-right: 5px;
-    border-radius: 50%;
-    background-color: white;
-}
-
-.circle.fill {
-    background-color: black;
-}
 
 .skills-grid {
     display: grid;
@@ -182,41 +166,75 @@ body {
     margin-bottom: 30px;
 }
 
-.skill-title h4{
+.skill-title h4 {
     text-align: left;
 }
 
-.skill-title p{
+.skill-title p {
     padding: 15px;
     text-align: justify;
     color: white;
 }
 
+.skills-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
 
-.projects{
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-title h3 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+}
+
+.skill-strenght h3 {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+.skill-details p{
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+    padding: 3px;
+}
+
+
+.projects {
     display: flex;
     gap: 30px;
 }
 
-.year h3{
+.year h3 {
     margin: 0px;
     font-weight: bold;
 
 }
 
-.project h3{
+.project h3 {
     text-align: left;
     font-size: 16px;
     font-weight: bold;
     margin: 0px;
 }
 
-.project p{
+.project p {
     text-align: left;
     font-size: 10px;
 }
 
-.reference p{
+.reference p {
     color: white;
     text-align: left;
 }
