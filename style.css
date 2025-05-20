@@ -1,5 +1,5 @@
 body {
-    background-color: #C20606;
+    background-color: #874545;
     display: flex;
     justify-content: center;
 }
@@ -9,10 +9,12 @@ body {
     height: 1100px;
     margin-top: 5px;
     display: flex;
+    position: fixed;
 }
 
 .left-column {
-    background-image: linear-gradient(to bottom, #FF210C, #a10d0d);
+    position: sticky;
+    background-image: linear-gradient(to bottom, #FF210C, #730d0d);
     width: 50%;
     height: 900px;
     margin: 0px;
@@ -190,3 +192,31 @@ body {
     color: white;
 }
 
+
+.projects{
+    display: flex;
+    gap: 30px;
+}
+
+.year h3{
+    margin: 0px;
+    font-weight: bold;
+
+}
+
+.project h3{
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.project p{
+    text-align: left;
+    font-size: 10px;
+}
+
+.reference p{
+    color: white;
+    text-align: left;
+}
