@@ -10,6 +10,7 @@ body {
     margin-top: 5px;
     display: flex;
     position: fixed;
+
 }
 
 .left-column {
@@ -19,6 +20,12 @@ body {
     height: 900px;
     margin: 0px;
     padding: 0px;
+    display: grid;
+}
+
+.left-content {
+    width: auto;
+    height: auto;
 }
 
 .left-column h1,
@@ -42,14 +49,16 @@ body {
 
 .photo {
     background-color: rgb(174, 132, 139);
-    width: 570px;
+    /* width: 570px;
+    height: 390px; */
+    width: 100%;
     height: 390px;
     margin: 0px;
 }
 
 .photo img {
-    width: 570px;
-    height: 390px;
+    width: 100%;
+    height: auto;
 }
 
 .content {
